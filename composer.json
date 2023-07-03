@@ -1,0 +1,22 @@
+{
+  "name": "fastlogs/sdk",
+  "description": "SDK for fastlogs service",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alexey Gyunter",
+      "email": "a.gyunter@kingbird.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "fastlogs\\sdk\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.6",
+    "ext-json": "*",
+    "ext-curl": "*"
+  }
+}
