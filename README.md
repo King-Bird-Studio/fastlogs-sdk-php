@@ -18,7 +18,7 @@ PHP 5.6+, установленные расширения json и curl.
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@git.kingbird.ru:kingbirdprojects/fastlogs/fastlogs-sdk-php.git"
+            "url": "https://github.com/King-Bird-Studio/fastlogs-sdk-php.git"
         }
     ],
     .....
@@ -26,7 +26,7 @@ PHP 5.6+, установленные расширения json и curl.
 ```
 2. Подключить к проекту:
 ```bash
-composer require "fastlogs/sdk:master-dev"
+composer require "fastlogs/sdk:dev-main"
 ```
 
 
